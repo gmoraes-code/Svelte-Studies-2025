@@ -1,14 +1,10 @@
 <script>
 </script>
 
-<head>
-
-</head>
-
-<body>
-    <div class = "mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
-        <h1>This is a new project!</h1>
-        <h2>Subtitle</h2>
-        <h2>Subtitle</h2>
+<button 
+    class="bg-amber-50 p-4 border" 
+    onclick={() => console.log("Hello, World!")}>
+    <div class="rounded-full flex px-4 py-2 bg-white shadow-sm">
+        <h1 class="font-bold">Click Me!</h1>
     </div>
-</body>
+</button>
